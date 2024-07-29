@@ -8,10 +8,10 @@ import { CountriesModule } from './countries/countries.module';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomePageComponent
-  },
+  // {
+  //   path: '',
+  //   component: HomePageComponent
+  // },
   {
     path: 'about',
     component: AboutPageComponent
@@ -26,7 +26,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: ''
+    redirectTo: 'countries'
   }
 ];
 
